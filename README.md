@@ -1,3 +1,29 @@
+# Dice Roller App
+
+This is a simple React Native application that simulates the rolling of a dice. When the user taps the "Roll Dice" button, the app generates a random number between 1 and 6, and updates the displayed dice image accordingly. Additionally, the app provides haptic feedback to enhance the user experience.
+
+## Features
+
+- Tap-to-roll functionality
+- Displays different dice images for values between 1 and 6
+- Haptic feedback on dice roll
+- Smooth, responsive user interface
+
+## Prerequisites
+
+Before running the project, ensure that you have the following dependencies installed on your development environment:
+
+- [Node.js](https://nodejs.org/) (version 12 or above)
+- [React Native CLI](https://reactnative.dev/docs/environment-setup)
+- [Android Studio](https://developer.android.com/studio) (for Android emulation)
+- [VS Code](https://code.visualstudio.com/) or any code editor of your choice
+- [React Native Haptic Feedback](https://github.com/mkuczera/react-native-haptic-feedback) library for haptic feedback
+
+To install the necessary libraries for this project, run:
+
+```bash
+npm install
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
